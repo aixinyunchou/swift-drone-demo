@@ -1,7 +1,5 @@
 image: swift
-
 services:
   - redis
-
 script:
   - swift hello.swift
