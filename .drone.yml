@@ -1,6 +1,5 @@
 image: swift
 services:
-  - library/redis
-
+  - redis:alpine
 script:
   - swift hello.swift
