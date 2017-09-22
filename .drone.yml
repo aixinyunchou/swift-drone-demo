@@ -1,5 +1,5 @@
 pipeline:
-  backend:
+  test:
     image: swift
     commands:
       - swift hello.swift
