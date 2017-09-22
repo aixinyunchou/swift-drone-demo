@@ -1,0 +1,6 @@
+image: swift
+services:
+  library/redis
+
+script:
+  - swift hello.swift
