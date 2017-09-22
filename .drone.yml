@@ -1,5 +1,5 @@
-image: swift
-services:
-  - redis
-script:
-  - swift hello.swift
+pipeline:
+  backend:
+    image: swift
+    commands:
+      - swift hello.swift
