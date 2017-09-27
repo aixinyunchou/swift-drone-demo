@@ -3,3 +3,7 @@ pipeline:
     image: swift
     commands:
       - swift hello.swift
+  another-step:
+    image: alpine
+    commands:
+      - echo "hello drone"
