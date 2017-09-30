@@ -15,5 +15,5 @@ pipeline:
     port: 22
     script:
       - cd /Users/xcodeserver/ci-work/workspace/Dajia-IOS-beta
-      - ./ci.sh beta
+      - pwd
       - echo done
