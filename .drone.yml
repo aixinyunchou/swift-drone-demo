@@ -16,3 +16,4 @@ pipeline:
     script:
       - cd /Users/xcodeserver/ci-work/workspace/Dajia-IOS-beta
       - ./ci.sh beta
+      - echo done
