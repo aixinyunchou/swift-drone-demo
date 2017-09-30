@@ -7,14 +7,3 @@ pipeline:
     image: alpine
     commands:
       - echo "hello drone"
-  ssh:
-    image: appleboy/drone-ssh
-    host: 192.168.31.10
-    username: xcodeserver
-    password: daJia&me
-    port: 22
-    command_timeout: 3602
-    script:
-      - cd /Users/xcodeserver/ci-work/workspace/Dajia-IOS-beta
-      - ./ci.sh beta
-      - echo done
