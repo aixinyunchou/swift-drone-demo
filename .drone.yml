@@ -7,3 +7,12 @@ pipeline:
     image: alpine
     commands:
       - echo "hello drone"
+  ssh:
+    image: appleboy/drone-ssh
+    host: 192.168.31.10
+    username: xcodeserver
+    password: daJia&me
+    port: 22
+    script:
+      - echo hello
+      - echo world
