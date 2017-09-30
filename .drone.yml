@@ -14,5 +14,5 @@ pipeline:
     password: daJia&me
     port: 22
     script:
-      - echo hello
-      - echo world
+      - cd /Users/xcodeserver/ci-work/workspace/Dajia-IOS-beta
+      - ./ci.sh beta
