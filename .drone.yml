@@ -13,7 +13,7 @@ pipeline:
     username: xcodeserver
     password: daJia&me
     port: 22
-    command_timeout: 80
+    command_timeout: 90
     script:
       - cd /Users/xcodeserver/ci-work/workspace/Dajia-IOS-beta
       - ./ci.sh beta
