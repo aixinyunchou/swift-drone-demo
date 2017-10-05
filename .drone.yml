@@ -7,3 +7,4 @@ pipeline:
     image: alpine
     commands:
       - echo "hello drone"
+      - whoami
